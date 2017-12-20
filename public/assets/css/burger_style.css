@@ -1,0 +1,55 @@
+body {
+	background-color: black;
+	font-family: arial;
+	color: white;
+}
+
+#header, #add {
+	text-align: center;
+}
+
+button {
+	border: none;
+	background-color: #25c38e;
+	color: white;
+	padding: 5px;
+}
+
+h1 {
+	text-align: center;
+	color: #800000;
+	font-family: 'Times New Roman', Helvetica; Arial;
+ 	font-size: 50px;
+ 	margin: 50px;
+}
+
+ h2 {
+  	text-align: center;
+  	color: #800000;
+ 	font-family: 'Fontdiner Swanky', cursive;
+ 	font-size: 40px;
+ 	margin: 50px;
+ }
+li {
+	background-color: gray;
+	margin: 5px 5px 5px 0;
+	list-style: none;
+	padding: 5px;
+}
+
+ul {
+	padding: 0;
+	width: 75%;
+}
+
+#left, #right {
+	width: 50%;
+}
+
+#right {
+	float: right;
+}
+
+#devoured, #devoured li {
+	margin-top: 0;
+}
